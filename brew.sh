@@ -112,6 +112,7 @@ brew cleanup
 
 brew cask install charles
 brew cask install disk-inventory-x
+brew cask install java
 brew cask install libreoffice
 brew cask install postman
 brew cask install sketch
