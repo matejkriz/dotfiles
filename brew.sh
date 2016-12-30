@@ -106,6 +106,7 @@ brew install autopano-sift-c
 brew install s3cmd
 brew install youtube-dl
 brew install gpg
+brew install yarn
 
 # Remove outdated versions from the cellar.
 brew cleanup
