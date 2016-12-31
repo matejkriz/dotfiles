@@ -111,6 +111,7 @@ brew install yarn
 # Remove outdated versions from the cellar.
 brew cleanup
 
+brew cask install google-chrome
 brew cask install charles
 brew cask install disk-inventory-x
 brew cask install java
