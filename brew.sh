@@ -116,5 +116,8 @@ brew cask install charles
 brew cask install disk-inventory-x
 brew cask install java
 brew cask install libreoffice
+brew cask install osxfuse
 brew cask install postman
 brew cask install sketch
+# quicklook plugins
+brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize suspicious-package qlvideo provisionql quicklookapk
