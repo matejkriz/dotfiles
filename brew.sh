@@ -107,6 +107,7 @@ brew install s3cmd
 brew install youtube-dl
 brew install gpg
 brew install yarn
+brew install watchman
 
 # Remove outdated versions from the cellar.
 brew cleanup
