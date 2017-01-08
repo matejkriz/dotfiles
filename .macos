@@ -903,8 +903,11 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | b
 # React                                                                #
 ###############################################################################
 
-yarn global add react-native-cli
 yarn global add flow-bin
+yarn global add getstorybook
+yarn global add gulp-cli
+yarn global add mocha
+yarn global add react-native-cli
 
 ###############################################################################
 # Kill affected applications                                                  #
