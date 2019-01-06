@@ -3,13 +3,24 @@ export PATH="$HOME/bin:`yarn global bin`:$PATH";
 
 # Android SDK
 export ANDROID_HOME=~/Library/Android/sdk
+export ANDROID_SDK_ROOT=${ANDROID_HOME}
 export PATH=${PATH}:${ANDROID_HOME}/tools
 export PATH=${PATH}:${ANDROID_HOME}/platform-tools
+
+# JDBC driver
+export CLASSPATH=~/Library/Java/Extensions/mysql-connector-java-5.1.44-bin.jar
+
+# LaTeX
+export PATH=$PATH:/Library/TeX/Distributions/.FactoryDefaults/TeXLive-2016/Contents/Programs/texbin
 
 export JAVA_HOME=$(/usr/libexec/java_home)
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
+
+# Ruby Cocoapods
+export GEM_HOME=$HOME/.gem
+export PATH=$GEM_HOME/bin:$PATH
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
