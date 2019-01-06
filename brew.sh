@@ -108,10 +108,16 @@ brew install youtube-dl
 brew install gpg
 brew install yarn
 brew install watchman
+brew install cocoapods
+brew install midnight-commander
+
+brew install android-platform-tools
 
 # Remove outdated versions from the cellar.
 brew cleanup
 
+brew cask install atom
+brew cask install dropbox
 brew cask install google-chrome
 brew cask install charles
 brew cask install disk-inventory-x
@@ -119,6 +125,20 @@ brew cask install java
 brew cask install libreoffice
 brew cask install osxfuse
 brew cask install postman
+brew cask install slack
+brew cask install sourcetree
 brew cask install sketch
+brew cask install spotify
+brew cask install the-unarchiver
+brew cask install tomighty
+brew cask install vlc
+brew cask install wireshark-dev
+brew cask install visual-studio-code
+brew cask install react-native-debugger
+brew cask install iterm2
+brew cask install alfred
+brew cask install hyper
+
+
 # quicklook plugins
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize suspicious-package qlvideo provisionql quicklookapk
