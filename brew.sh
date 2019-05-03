@@ -138,7 +138,7 @@ brew cask install react-native-debugger
 brew cask install iterm2
 brew cask install alfred
 brew cask install hyper
-
+brew cask install graphql-playground
 
 # quicklook plugins
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize suspicious-package qlvideo provisionql quicklookapk
